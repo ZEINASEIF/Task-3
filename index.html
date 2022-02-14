@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Login Form with validation Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="Css/style.css">
+
+</head>
+<body>
+
+<div id="login-form-wrap">
+  <h2>Login Form</h2>
+  <form id="login-form">
+
+    <label>Email or Phone</label>
+    <p>
+    
+    <input type="text" id="username" name="username"  required><i class="validation"><span></span><span></span></i>
+    </p>
+    <label>Password</label>
+    <p>
+    <input type="password" id="pass" name="pass"  required><i class="validation"><span></span><span></span></i>
+    </p>
+    <p id="forgot"> <a href="#">Forgot Password?</a></p>
+    <p>
+    <input type="submit" id="login" value="LOGIN">
+    </p>
+  </form>
+  <div id="create-account-wrap">
+    <p id="Not">Not a member? <a href="#">Signup now</a></p>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
+<!-- partial -->
+  
+</body>
+</html>
